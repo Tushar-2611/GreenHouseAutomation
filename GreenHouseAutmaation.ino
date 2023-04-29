@@ -79,16 +79,16 @@ void loop()
   Serial.println("LOW (Water Required)");
   }
   
-//  Serial.print("Temperature & Humidity : ");
-//  if(AnalogValueDHT < 450){
-//      
-//     Serial.println("HIGH(Exhausting Required)");
-//
-//  }else{
-//  
-//  Serial.println("LOW");
-//  }
-//  
+ Serial.print("Temperature & Humidity : ");
+ if(AnalogValueDHT < 450){
+     
+    Serial.println("HIGH(Exhausting Required)");
+
+ }else{
+ 
+ Serial.println("LOW");
+ }
+ 
 
   Serial.println("----------------------------------------------");
   Serial.println("----------------------------------------------");
